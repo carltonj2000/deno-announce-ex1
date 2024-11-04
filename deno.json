@@ -1,0 +1,9 @@
+{
+  "name": "@carltonj2000/tree",
+  "version": "1.0.0",
+  "exports": "./tree.ts",
+  "license": "MIT",
+  "imports": {
+    "@std/fs": "jsr:@std/fs@^1.0.5"
+  }
+}
