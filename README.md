@@ -10,3 +10,14 @@ The code in this directory is based on:
 - https://www.youtube.com/live/d35SlRgVxT8?si=XvnTJ5tMVfRQUgz5
 
 ## Code History
+
+## Jupyter Notebook
+
+```bash
+sudo apt install python3-pip
+sudo apt install python3-venv
+python3 -m venv venv
+source ./venv/bin/activate
+pip3 install jupyter
+jupyter lab # start server to run deno code
+```

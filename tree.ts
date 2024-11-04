@@ -2,7 +2,7 @@
 import { walk } from "jsr:@std/fs@1";
 import { relative } from "node:path";
 
-/** recursively list out file in a directory */
+/** recursively list out files in a directory */
 export async function tree(dir: string): Promise<string[]> {
   const de: string[] = [];
   for await (const dirEntry of walk(dir)) {
