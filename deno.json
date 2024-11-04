@@ -1,6 +1,6 @@
 {
   "name": "@carltonj2000/tree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "exports": "./tree.ts",
   "license": "MIT",
   "imports": {
